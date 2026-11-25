@@ -13,6 +13,9 @@
  * Space Complexity: O(min(n, k))
  */
 
+import java.util.Set;
+import java.util.HashSet;
+
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         // Edge cases: duplicate is impossible if array has <= 1 element or k <= 0
